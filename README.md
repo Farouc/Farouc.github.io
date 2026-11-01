@@ -36,3 +36,9 @@ See the official [GitHub Pages quickstart](https://docs.github.com/en/pages/quic
 GitHub Pages address: https://farouc.github.io/
 
 Run the theme behavior check with `node tests/theme.test.cjs`.
+
+## Search visibility
+
+`sitemap.xml` lists the four pages, `robots.txt` advertises the sitemap and permits crawling, and each page declares its canonical URL. Keep the sitemap and canonical links in sync when adding or renaming pages. Include both files when uploading manually.
+
+For Google, add `https://farouc.github.io/` as a URL-prefix property in [Search Console](https://search.google.com/search-console/). Verify ownership using Google's HTML tag or file, submit `sitemap.xml`, and inspect the homepage URL to request indexing. Verification must use the token issued for your own Google account. Discovery and indexing are controlled by Google and are not immediate or guaranteed.
