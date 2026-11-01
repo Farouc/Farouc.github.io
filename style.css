@@ -93,7 +93,7 @@ footer a { color: var(--muted); }
   nav { gap: 8px 18px; }
   main, .home-page main { padding-top: 36px; }
   .intro { grid-template-columns: 1fr; gap: 28px; }
-  .portrait { width: 160px; }
+  .portrait { width: 160px; grid-row: 1; margin-top: 0; }
   .dated-list li { grid-template-columns: 1fr; gap: 3px; margin-bottom: 20px; }
 }
 @media (max-width: 400px) {
